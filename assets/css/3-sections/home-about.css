@@ -1,0 +1,144 @@
+.about
+{
+  background: #323232; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #323232, #4f4f4f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #323232, #4f4f4f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #323232, #4f4f4f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #323232, #4f4f4f);
+  font-family:'Ubuntu', sans-serif;
+  color: white;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Clear out any unnecessary css*/
+.about h2
+{
+  color: #b8b8b8;
+}
+
+.about h3
+{
+  color: white;
+
+}
+
+.about h4
+{
+  color: white;
+  font-size: 23px;
+  margin: 0px;
+  animation: toggleleft 4s;
+
+}
+
+.about h5
+{
+  color: #b8b8b8;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.about h5:hover
+{
+     color: white;
+}
+
+.about ul
+{
+  margin-top: 1px;
+}
+
+.about hr
+{
+  width: 100px;
+}
+
+.about li
+{
+  font-size: 18px;
+}
+
+.about p
+{
+  font-size: 20px;
+}
+
+.about .shift-down
+{
+  margin-top: 120px;
+}
+
+@media only screen and (max-width: 975px)
+{
+  .about .col-2
+  {
+       width: 500px;
+
+  }
+}
+
+@media only screen and (max-width: 975px)
+{
+  .about .col-2
+  {
+       width: 400px;
+
+  }
+}
+
+@media only screen and (max-width: 785px)
+{
+  .about .col-2
+  {
+       width: 300px;
+
+  }
+}
+
+@media only screen and (max-width: 640px)
+{
+  .about h4
+  {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .title
+  {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+
+  .about .col-2
+  {
+       max-width: 100%;
+       margin: auto;
+  }
+
+  .about
+  {
+       padding-right: 30px;
+       padding-left: 30px;
+ }
+
+
+  .about .block-formation
+  {
+      display: inline-block
+  }
+}
+
+
+
+
+@@keyframes toggleleft
+{
+  from { left: 0px;}
+  to {left: none;};
+}

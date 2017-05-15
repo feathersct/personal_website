@@ -1,83 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Clayton Feathers</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
-  <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body>
+  <head>
+    <title>Clayton Feathers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet">
+  </head>
+  <body>
 
-<div class="page-home">
+     <div class="home_wrap">
 
-  <section>
-    <h1 class="page-title">DevTips<br>Starter Kit</h1>
-    <p>Ground zero for your next project.</p>
+         <!--Menu Bar (Header)-->
+          <header>
+               <div class="menu">
+                 <div class = "menu-container">
+                    <div class="icon-container">
 
-    <a href="https://github.com/DevTips/DevTips-Starter-Kit/archive/master.zip" class="button button-download">Download Now</a>
+                      <!--About Icon & Dropdown-->
+                         <div class="dropdown">
+                           <button class="dropbtn"><a href="#about"><img class = "icon" src="assets/images/about.svg"/></a></button>
+                           <div class="dropdown-content">
+                             <a href="#">About</a>
+                           </div>
+                         </div>
+                      <!--Social Media Icon & Dropdown-->
+                         <div class="dropdown">
+                           <button class="dropbtn"><a href="#social-media"><img class = "icon" src="assets/images/laptop.svg"/></a></button>
+                           <div class="dropdown-content">
+                             <a href="#">Social Media</a>
+                           </div>
+                         </div>
+                      <!--Info Icon & Dropdown-->
+                         <div class="dropdown">
+                           <button class="dropbtn"><a href="#education"><img class = "icon" src="assets/images/info_icon.svg"/></a></button>
+                           <div class="dropdown-content">
+                             <a href="#">Info</a>
+                           </div>
+                         </div>
+                      <!--Contact Icon & Dropdown-->
+                         <div class="dropdown">
+                           <button class="dropbtn"><a href="#contact"><img class = "icon" src="assets/images/contact.svg"/></a></button>
+                           <div class="dropdown-content">
+                             <a href="#">Contact</a>
+                           </div>
+                         </div>
+                    </div>
+                  </div>
+               </div>
+          </header>
 
-    <a class="fork-tag" href="https://github.com/DevTips/DevTips-Starter-Kit">Fork Me on GitHub</a>
+          <div class="home_sections">
 
-  </section>
+          <!--Hero Section-->
+          <section class="hero">
+               <div class="flex flex--center">
+                    <div class="col-1 push-right">
+                       <h3><span style="font-size:65px;">C</span>layton <span style="font-size:65px;">F</span>eathers</h3>
+                       <div class="hero_lead">
+                           <hr></hr>
+                           <h4>Software Developer</h4>
+                           <hr></hr>
+                       </div>
+                    </div>
+               </div>
+          </section>
 
-  <section>
+          <!--About Section-->
+          <section class="about">
+               <div class="flex flex--center">
+                    <div class= "col-1 title">
+                        <h4>About Me</h4>
+                        <hr>
+                    </div>
+                    <div class="col-2">
+                         <p class="italic light-font">My name is <span class="bigger bold-font" style="color:#BD5248;">Clayton Feathers</span>, and I am a software developer. I enjoy
+                           working with all sorts of programming languages (Java, HTML, CSS, JavaScript, C#, etc.)
+                          </p>
+                          <p>
+                            I am currently living in the mountains of Kingsport, TN and going to school at East Tennessee
+                            State University where I study computer science. As of Fall 2017, this is my third year at ETSU.
+                          </p>
+                          <p>Some things I'm into:
+                              <ul>
+                                <li>Drums</li>
+                                <li>Arduinos</li>
+                                <li>Disc Golf</li>
+                                <li>Taking things apart</li>
+                              </ul>
 
-    <article>
-      <h4>Watch the Video</h4>
-      <div class="flex-video-wrap">
-        <div class="flex-video">
-          <iframe src="https://www.youtube.com/embed/F3u7whqIxrc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </article>
+                          </p>
 
-    <article>
-      <p>Brought to you by</p>
-      <div class="name-lockup">
-        <img class="avatar" src="https://yt3.ggpht.com/-47U43a3eNW0/AAAAAAAAAAI/AAAAAAAAAAA/fWgb7mKcn6k/s176-c-k-no/photo.jpg">
-        <div class="name">
-          <strong>Travis Neilson</strong>
-          <br>
-          <a href="https://twitter.com/DevTipsShow">@DevTipsShow</a>
-        </div>
-      </div>
-  </article>
+                    </div>
+                    <div class= "col-1 block-formation">
+                       <div>
+                           <img src="assets/images/pdf-logo.png" style="float: left; width: 32px; height: 32px; margin-top: 16px; margin-right: 5px;"/>
+                           <h5 style= "float: right;">DOWNLOAD RESUME</h5>
+                       </div>
+                       <div>
+                            <img src="assets/images/linkedin.png" style="float: left; width: 32px; height: 32px; margin-top: 16px; margin-right: 5px;"/>
+                           <h5>LINKEDIN</h5>
+                       </div>
+                    </div>
+               </div>
+          </section>
 
-  </section>
+          <!--Social Media Section
+          <section class="social-media">
+            <div class="github-content">
+               <img src="assets/images/github-square.svg" class= "icon-container" style= "width: 334px; height: 334px; display:inline-block; "/>
+               <img src="assets/images/facebook-square.png" class= "icon-container" style= "width: 334px; height: 334px; display:inline-block;"/>
+               <img src="assets/images/github-square.svg" class= "icon-container" style= "width: 334px; height: 334px; display:inline-block;"/>
+             </div>
+          </section>
+        -->
 
-  <pre>
-    DevTips-Starter-Kit
-    | -- assets/
-    |   | -- css/
-    |   |   | -- 1-tools/
-    |   |   |   | -- bourbon/
-    |   |   |   | -- fonts.sass
-    |   |   |   | -- normalize.sass
-    |   |   |   | -- vars.sass
-    |   |   | -- 2-basics/
-    |   |   |   | -- body-elements.sass
-    |   |   |   | -- links.sass
-    |   |   |   | -- selection-colors.sass
-    |   |   |   | -- typography.sass
-    |   |   | -- 3-modules/
-    |   |   |   | -- example-module.sass
-    |   |   |   | -- example-module.sass
-    |   |   | -- 4-pages/
-    |   |   |   | -- example-page.sass
-    |   |   | -- main.sass
-    |   | -- js/
-    |   |   | -- jquery.js
-    |   |   | -- functions.js
-    |   | -- img/
-    | -- favicon.ico
-    | -- readme.md
-    | -- index.html
-  </pre>
+          <section class="education">
+            <div class="flex flex--center">
+                 <div class= "col-1 title">
+                     <h4>Education</h4>
+                     <hr>
+                 </div>
+                 <div class="col-2">
+                      <h5 class="bold-font" style="color:#BD5248;">B.S. Computer Science</h5>
+                       <h5 class="italic light-font">East Tennessee State University</h5>
+                 </div>
+                 <div class= "col-1 block-formation">
+                      <h5>August 2015 - May 2019</h5>
+                      <h5>Johnson City, TN</h5>
+                 </div>
+            </div>
+          </section>
 
-</div>
+          <section class="experience">
+            <div class="flex flex--center">
+                 <div class= "col-1 title">
+                     <h4>Experience</h4>
+                     <hr>
+                 </div>
+                 <div class="col-2">
+                      <h5 class="bold-font" style="color:#BD5248;">Software Developer Intern</h5>
+                       <h5 class="italic light-font">Holston Medical Group</h5>
+                 </div>
+                 <div class= "col-1 block-formation">
+                      <h5>June 2016 - August 2016</h5>
+                      <h5>Kingsport, TN</h5>
+                 </div>
+            </div>
+          </section>
 
-<script src="assets/js/jquery-2.1.4.min.js"></script>
-<script src="assets/js/functions.js" type="text/javascript"></script>
-</body>
+          </div>
+     </div>
+
+
+
+
+
+
+  <script src="assets/js/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/functions.js" type="text/javascript"></script>
+  </body>
 </html>

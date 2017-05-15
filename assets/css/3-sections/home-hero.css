@@ -1,0 +1,71 @@
+.hero
+{
+  background-color: white;
+  background-image: url('../../images/clayton_cartoon_wallpaper.png');
+  background-position: center bottom;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+  height: 610px;
+  /*Remember to change the link to actual imports...14:00 on video 6.1*/
+}
+
+.hero h3
+{
+  color: #3e3e3e;
+  font-size: 45px;
+  margin-left: -172px;
+  line-height: 1;
+  padding-top: 180px;
+  margin-bottom: 10px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+
+}
+
+.hero h4
+{
+  color: #3e3e3e;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+  margin: 10px;
+
+}
+
+.hero hr
+{
+  border-color: #3e3e3e;
+  border-width: .5px;
+  margin: 5px;
+}
+
+.hero .hero_lead
+{
+  text-align: center;
+  margin-left: -115px;
+  margin-right: 90px;
+  max-width: 250px;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+}
+
+
+@media only screen and (max-width: 640px)
+{
+  .hero, .hero .hero_lead
+  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero h3
+  {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+}
+
+@-webkit-keyframes fadein{
+  from {opacity: 0;}
+  to   {opacity: 1;}
+}

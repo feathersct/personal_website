@@ -1,0 +1,133 @@
+.education
+{
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, #ececec); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, #ececec); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, #ececec); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, #ececec);
+  font-family:'Ubuntu', sans-serif;
+  color: white;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Clear out any unnecessary css*/
+.education h2
+{
+  color: black;
+}
+
+.education h3
+{
+  color: black;
+
+}
+
+.education h4
+{
+  color: black;
+  font-size: 23px;
+  margin: 0;
+}
+
+.education h5
+{
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+}
+
+.education .col-2
+{
+     width: 620px;
+}
+
+.education ul
+{
+  margin-top: 1px;
+}
+
+.education hr
+{
+  width: 100px;
+}
+
+.education li
+{
+  font-size: 18px;
+}
+
+.education p
+{
+  font-size: 20px;
+}
+
+.education .shift-down
+{
+  margin-top: 120px;
+}
+
+@media only screen and (max-width: 975px)
+{
+  .education .col-2
+  {
+       width: 500px;
+
+  }
+}
+
+@media only screen and (max-width: 975px)
+{
+  .education .col-2
+  {
+       width: 400px;
+
+  }
+}
+
+@media only screen and (max-width: 785px)
+{
+  .education .col-2
+  {
+       width: 300px;
+
+  }
+}
+
+@media only screen and (max-width: 640px)
+{
+  .education h4
+  {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .title
+  {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+
+  .education .col-2
+  {
+       max-width: 100%;
+       margin: auto;
+  }
+
+  .education
+  {
+       padding-right: 30px;
+       padding-left: 30px;
+ }
+
+
+  .education .block-formation
+  {
+      display: inline-block
+  }
+}

@@ -3,3 +3,11 @@
 
 @import url('1-base/vars.css');
 @import url('1-base/base.css');
+@import url('4-layouts/header.css');
+@import url('4-layouts/home.css');
+
+@import url('3-sections/home-hero.css');
+@import url('3-sections/home-about.css');
+@import url('3-sections/home-social-media.css');
+@import url('3-sections/home-education.css');
+@import url('3-sections/home-experience.css');
