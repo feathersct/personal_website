@@ -1,30 +1,41 @@
 .hero
 {
   background-color: white;
-  background-image: url('../../images/clayton_cartoon_wallpaper.png');
-  background-position: center bottom;
+  background-image: url('../../images/hero-background.png');
+  background-position: center top;
   background-size: cover;
   font-family: 'Ubuntu', sans-serif;
-  height: 610px;
+  height: 100vh;
+
   /*Remember to change the link to actual imports...14:00 on video 6.1*/
+}
+
+.hero-title-container
+{
+     position: relative;
+     text-align: center;
+
+     top: 10%;
 }
 
 .hero h3
 {
-  color: #3e3e3e;
-  font-size: 45px;
-  margin-left: -172px;
+     position: relative;
+     display: block;
+  color: white;
+  font-size: 70px;
   line-height: 1;
   padding-top: 180px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 
 }
 
 .hero h4
 {
-  color: #3e3e3e;
-  font-size: 22px;
+     position: relative;
+  color: white;
+  font-size: 35px;
   font-weight: 300;
   line-height: 1;
   margin: 10px;
@@ -33,7 +44,7 @@
 
 .hero hr
 {
-  border-color: #3e3e3e;
+  border-color: #BD5248;
   border-width: .5px;
   margin: 5px;
 }
@@ -41,9 +52,8 @@
 .hero .hero_lead
 {
   text-align: center;
-  margin-left: -115px;
-  margin-right: 90px;
-  max-width: 250px;
+  margin: auto;
+  max-width: 400px;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
 }
 

@@ -6,53 +6,67 @@
   background: -moz-linear-gradient(bottom right, white, #ececec); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, white, #ececec);
   font-family:'Ubuntu', sans-serif;
-  color: white;
-  display: block;
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  color: black;
 }
 
 /* Clear out any unnecessary css*/
+
+.leading-container
+{
+     position: center;
+     width: 100%;
+     text-align: center;
+}
+
+.timeline-block
+{
+     width: 80%;
+}
+
+.timeline-content
+{
+     background: darkgrey;
+     max-width: 600px;
+     margin: 30px;
+     position: relative;
+}
+
+
+
+
+
+
 .education h2
 {
-  color: black;
+     font-size: 25px;
 }
 
 .education h3
 {
-  color: black;
-
+     font-size: 20px;
 }
 
-.education h4
+
+.education h1
 {
-  color: black;
-  font-size: 23px;
-  margin: 0;
+     margin-bottom: 20px;
 }
 
 .education h5
 {
-  color: black;
+  color: #b8b8b8;
   font-weight: 300;
   font-size: 14px;
-  margin: 0;
 }
 
-.education .col-2
+.education h5:hover
 {
-     width: 620px;
+     color: white;
 }
 
 .education ul
 {
   margin-top: 1px;
-}
-
-.education hr
-{
-  width: 100px;
 }
 
 .education li
@@ -62,72 +76,110 @@
 
 .education p
 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
-.education .shift-down
+.education hr
 {
-  margin-top: 120px;
+     border-width: 1px;
 }
 
-@media only screen and (max-width: 975px)
+.block-formation
 {
-  .education .col-2
-  {
-       width: 500px;
-
-  }
+     display: inline-block;
+     margin-top: 40px;
 }
 
-@media only screen and (max-width: 975px)
+@media only screen and (max-width: 1400px)
 {
-  .education .col-2
-  {
-       width: 400px;
+     .title
+     {
+          margin-right: 100px;
+     }
 
-  }
+     .description
+     {
+          max-width: 630px;
+     }
 }
 
-@media only screen and (max-width: 785px)
+@media only screen and (max-width: 1150px)
 {
-  .education .col-2
-  {
-       width: 300px;
+     .title
+     {
+          margin-right: 30px;
 
-  }
+     }
+
+     .title h1
+     {
+          font-size: 55px;
+     }
+
+     .description
+     {
+          max-width: 550px;
+     }
+}
+
+@media only screen and (max-width: 1000px)
+{
+     .title
+     {
+          margin-right: 30px;
+     }
+
+     .description
+     {
+          max-width: 410px;
+     }
+}
+
+@media only screen and (max-width: 850px)
+{
+     .title
+     {
+          margin-right: 20px;
+     }
+
+     .title h1
+     {
+          font-size: 40px;
+     }
+
+     .description
+     {
+          max-width: 350px;
+     }
+}
+
+@media only screen and (max-width: 800px)
+{
+     .title
+     {
+          margin-right: 30px;
+     }
+
+     .description
+     {
+          max-width: 275px;
+     }
 }
 
 @media only screen and (max-width: 640px)
 {
-  .education h4
-  {
-    margin: auto;
-    margin-bottom: 10px;
-  }
+     .title
+     {
+          padding-bottom: 30px;
+     }
 
-  .title
-  {
-    width: 300px;
-    max-width: 100%;
-    margin: auto;
-  }
+     .block-formation{
+          margin-top: 10px;
+     }
 
+     .title h1
+     {
+          font-size: 65px;
+     }
 
-  .education .col-2
-  {
-       max-width: 100%;
-       margin: auto;
-  }
-
-  .education
-  {
-       padding-right: 30px;
-       padding-left: 30px;
- }
-
-
-  .education .block-formation
-  {
-      display: inline-block
-  }
 }

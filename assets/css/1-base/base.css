@@ -82,7 +82,7 @@ hr{
 /*Links*/
 
 a{
-  color: var(--link-color);
+  color: white;
   text-decoration: none;
   outline: 0;
 }
