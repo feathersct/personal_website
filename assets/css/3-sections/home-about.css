@@ -19,7 +19,7 @@
 
 #image
 {
-  float: left;
+  width: 350px;
 }
 
 .divider
@@ -96,6 +96,11 @@
 
      }
 
+     #image
+     {
+       width: 300px;
+     }
+
      .title h1
      {
           font-size: 55px;
@@ -103,7 +108,7 @@
 
      .description
      {
-          max-width: 550px;
+          max-width: 100px;
      }
 }
 
@@ -158,13 +163,31 @@
           padding-bottom: 30px;
      }
 
-     .block-formation{
+     .block-formation
+     {
           margin-top: 10px;
+          margin: 10px auto;
+          text-align: left;
      }
+
+    .profile
+    {
+      text-align: center;
+    }
 
      .title h1
      {
           font-size: 65px;
      }
 
+    #image
+    {
+      max-width: 225px;
+      margin: auto;
+    }
+
+    .about .col-1
+    {
+      margin: auto
+    }
 }

@@ -5,8 +5,6 @@ jQuery(document).ready(function($){
 	//hide timeline blocks which are outside the viewport
 	hideBlocks(timelineBlocks, offset);
 
-	changeWidth();
-
 	//on scolling, show/animate timeline blocks when enter the viewport
 	$(window).on('scroll', function()
 	{
@@ -29,20 +27,5 @@ jQuery(document).ready(function($){
 		{
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
-	}
-
-	function changeWidth()
-	{
-		var widthOfAbout = document.getElementById('about').offsetWidth;
-		var percent = .3;
-		var endWidth = widthOfAbout * percent;
-
-		if(endWidth > 450)
-		{
-			endWidth = 450;
-		}
-
-
-		document.getElementById('image').style.width = endWidth + "px";
 	}
 });

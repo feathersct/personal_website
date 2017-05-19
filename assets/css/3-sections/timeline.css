@@ -74,7 +74,7 @@ Main components
 .timeline-heading
 {
      text-align: center;
-     margin: 100px;
+     margin: 100px auto;
 }
 
 .timeline-heading h1
