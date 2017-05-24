@@ -1,11 +1,12 @@
 .hero
 {
   background-color: white;
-  background-image: url('../../images/hero-background.png');
+  background-image: url('../../images/hero-bg.png');
   background-position: center top;
   background-size: cover;
   font-family: 'Ubuntu', sans-serif;
   height: 100vh;
+  display: block;
 
   /*Remember to change the link to actual imports...14:00 on video 6.1*/
 }
@@ -14,9 +15,12 @@
 {
      position: relative;
      text-align: center;
-
-     top: 10%;
+     width: 100%;
+     padding: 0 5%;
+     top: 45%;
+     transform: translateY(-45%);
 }
+
 
 .hero h3
 {
@@ -25,7 +29,6 @@
   color: white;
   font-size: 70px;
   line-height: 1;
-  padding-top: 180px;
   margin-bottom: 20px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 
@@ -56,6 +59,54 @@
   max-width: 400px;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
 }
+
+.icon-wrapper
+{
+     position: absolute;
+     left: 0;
+     bottom: 100px;
+     width: 100%;
+     font-size: 0;
+     text-align: center;
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.icon-container
+{
+  margin: 0px 20px;
+  display: inline-block;
+  width: auto;
+  color: white;
+  opacity: .7;
+}
+
+.icon-container:hover
+{
+  animation: fade-in 1s forwards;
+}
+
+.icon-container p
+{
+  font-size: 17px;
+}
+
+.icon-row
+{
+  position: relative;
+  margin: 0 auto;
+}
+
+@keyframes font-big
+{
+    from{ font-size: 15px;}
+    to{ font-size: 20px;}
+}
+
 
 
 @media only screen and (max-width: 640px)

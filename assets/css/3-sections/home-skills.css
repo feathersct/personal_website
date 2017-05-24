@@ -12,7 +12,7 @@
 .skills-wrapper
 {
   padding: 100px;
-  background-color: #000000;
+  background-color: #1a1a1a;
 }
 
 .skills h1
@@ -64,6 +64,13 @@
   font-size: 14px
 }
 
+
+
+.skills li:hover
+{
+  border-color: white;
+}
+
 .skills img
 {
   border: 2px solid white;
@@ -88,6 +95,6 @@
 {
   .skills-wrapper
   {
-    padding: 10px;
+    padding: 100px 10px;
   }
 }

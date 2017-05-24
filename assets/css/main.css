@@ -8,7 +8,8 @@
 
 @import url('3-sections/home-hero.css');
 @import url('3-sections/home-about.css');
-@import url('3-sections/home-social-media.css');
-@import url('3-sections/home-education.css');
+@import url('3-sections/home-projects.css');
 @import url('3-sections/home-skills.css');
 @import url('3-sections/timeline.css');
+@import url('3-sections/home-contact.css');
+@import url('3-sections/home-footer.css');

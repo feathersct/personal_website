@@ -1,0 +1,79 @@
+.projects
+{
+     background-color: white;
+     background-image: url('../../images/projects-bg.png');
+     background-position: center center;
+     background-size: cover;
+     font-family: 'Ubuntu', sans-serif;
+     color: white;
+}
+
+.projects-wrapper
+{
+  padding: 100px;
+}
+
+.projects-grid
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid-row
+{
+  display: block;
+  height: 50%;
+}
+
+.grid-cell
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.right-line
+{
+  border-right: 1px solid rgba(242, 242, 242, .3);
+}
+
+.bottom-line
+{
+  border-bottom: 1px solid rgba(242, 242, 242, .3);
+}
+
+.box-border
+{
+  border: 3px solid white;
+  padding: 5px;
+}
+
+.box-border:hover
+{
+  border-color: #BD5248;
+  background: #BD5248;
+}
+
+.projects h1, h2, h3, h4, h5
+{
+     color: white;
+}
+
+.projects h1
+{
+     font-size: 50px;
+}
+
+.projects h4
+{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.projects p
+{
+  font-size: 17px;
+}

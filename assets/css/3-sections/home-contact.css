@@ -1,0 +1,46 @@
+.contact
+{
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.contact-wrapper
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.contact h1
+{
+  color: white;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.contact p
+{
+  font-size: 30px;
+  color: white;
+  text-align: left;
+}
+
+.contact-content
+{
+  width: 550px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact .divider
+{
+  margin: 25px auto;
+  margin-bottom: 100px;
+}
+
+.contact h2
+{
+  margin: 10px auto;
+}

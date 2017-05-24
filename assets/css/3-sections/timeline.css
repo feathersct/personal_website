@@ -290,12 +290,24 @@ Main components
 
 #school-block:hover > .cd-picture
 {
-     background: #bd5248;
+     animation: color-change .5s forwards;
 }
 
 #school-block:hover > .education
 {
-  opacity: 1
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in
+{
+  from{opacity: .7;}
+  to{opacity: 1;}
+}
+
+@keyframes color-change
+{
+  from{ background: #252525; }
+  to{ background: #bd5248; }
 }
 
 .hmg
@@ -305,12 +317,12 @@ Main components
 
 #work-block:hover > .cd-movie
 {
-     background: #bd5248;
+     animation: color-change .5s forwards;
 }
 
 #work-block:hover > .hmg
 {
-  opacity: 1
+  animation: fade-in 1s forwards;
 }
 
 @media only screen and (min-width: 768px) {

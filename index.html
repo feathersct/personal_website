@@ -55,26 +55,46 @@
           <div class="home_sections">
 
           <!--Hero Section-->
-          <section class="hero">
+          <section class="hero" id="hero">
                <div class="hero-title-container">
-                  <h3><span style="font-size:65px;">C</span>layton <span style="font-size:65px;">F</span>eathers</h3>
+                 <h3><span style="font-size:65px;">C</span>layton <span style="font-size:65px;">F</span>eathers</h3>
                   <div class="hero_lead">
                       <hr></hr>
                       <h4>Software Developer</h4>
                       <hr></hr>
                   </div>
-               </div>
+             </div>
+             <div class="icon-wrapper">
+                  <div class="icon-row">
+                    <div class="icon-container">
+                      <a href="#about"><img class = "icon" src="assets/images/about.svg"/></a>
+                      <p>About</p>
+                    </div>
+                    <div class="icon-container">
+                      <a href="#skills"><img class = "icon" src="assets/images/laptop.svg"/></a>
+                      <p>Skills</p>
+                    </div>
+                    <div class="icon-container">
+                      <a href="#events"><img class = "icon" src="assets/images/info_icon.svg"/></a>
+                      <p>Experience</p>
+                    </div>
+                    <div class="icon-container">
+                      <a href="#contact"><img class = "icon" src="assets/images/contact.svg"/></a>
+                      <p>Contact</p>
+                    </div>
+                  </div>
+              </div>
           </section>
 
 
-          <!--New About Section-->
-          <section class="about">
+          <!--About Section-->
+          <section class="about" id="about">
                <div class="flex flex--space--around" id='about'>
                     <div class="col-1 profile">
                           <img src="assets/images/circle-profile.png" id='image'/>
 
                           <!--Linked in and resume links-->
-                          <div class= "block-formation">
+                          <div class= "block-formation social-media">
                              <div>
                                 <img src="assets/images/pdf-logo.png" style="float: left; width: 32px; height: 32px; margin-top: 16px; margin-right: 5px;"/>
                                 <h5 style= "float: right;"><a href="Resume.docx" target='_blank' title="Click here to open a Word document">DOWNLOAD RESUME</a></h5>
@@ -88,8 +108,7 @@
 
                     <div class="col-1 order-first description">
                       <h2>Hey, I'm Clayton.</h2>
-                         <p class="italic light-font">I am a software developer. I enjoy working with all sorts
-                           of programming languages (Java, HTML, CSS, JavaScript, C#, etc.)
+                         <p class="italic light-font">I am a 20 year-old software developer, life-long learner, and technology enthusist.
                           </p>
                           <span class="divider"></span>
 
@@ -107,8 +126,59 @@
           </section>
 
 
+          <!--Projects Section-->
+          <section class="projects" id="projects">
+            <div class="projects-wrapper">
+              <div class="projects-content">
+                <h1>Projects</h1>
+                <span class="divider"></span>
+                <div class="projects-grid">
+                  <div class="grid-row bottom-line">
+                    <div class="grid-cell right-line">
+                      <!--Put Content-->
+                      <h4>Employee Pay Stub Calculator</h4>
+                      <p class="light-font">I foresaw an easier way to process employee pay checks at the small business
+          							I work at. Instead of calculating the tax by hand, I created a program that allows
+          							one to input the name, amount of hours worked, and the pay rate for an employee.
+          							Then the program will display a window with the employee's name, gross pay, social
+          							security tax, medicare tax, federal withhold tax and net pay. The program will then
+          							ask if the user would like to process another employee.</p>
+                       <a class= "box-border" href="EmployeePayStub.exe">Emp. Pay Stub</a>
+                    </div>
+                    <div class="grid-cell">
+                      <!--Put Content-->
+                      <h4>Text Analysis</h4>
+                      <p class="light-font">This program will split a text file into paragraphs, sentences, words, and tokens. It will then display
+                         those values to you. You can also flip through each paragraph or sentence and see the average word count,
+                         sentence count, etc.</p>
+                      <a class= "box-border" href="">Text Analysis</a>
+                    </div>
+                  </div>
+                  <div class="grid-row">
+                    <div class="grid-cell right-line">
+                      <!--Put Content-->
+                      <h4>Photo Album Program</h4>
+                      <p class="light-font">This program was made with Java, it will allow one to navigate to their pictures and display them. It will display
+                         the file size, image, and file type. One can also import a single photo.</p>
+                      <a class= "box-border" href="">Photo Album</a>
+                    </div>
+                    <div class="grid-cell">
+                      <!--Put Content-->
+                      <h4>Old Website</h4>
+                      <p class="light-font">This was my first portfolio website I built in 2016. It's a simple one-pager like this one. Since then, I think my
+                         web development and design skills have expanded immensely.</p>
+                      <a class= "box-border" href="https://feathersct.github.io/Clayton-Feathers/Index3.html">Old Website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+
           <!--Skills Section-->
-          <section class="skills">
+          <section class="skills" id="skills">
             <div class="skills-wrapper">
               <h1>Skills</h1>
               <span class="divider"></span>
@@ -145,9 +215,8 @@
           </section>
 
 
-          <!--Downloaded Timeline-->
-
-          <section class="events">
+          <!--Timeline Section-->
+          <section class="events" id="events">
                <div class="timeline-heading">
                     <h1>Experience</h1>
                     <span class="divider"></span>
@@ -199,12 +268,59 @@
           </section>
 
 
+        <!--Add in actually content text fields later-->
+          <!--Contact Section-->
+          <section class="contact" id="contact">
+            <div class="contact-wrapper">
+                <h1>Get In Touch</h1>
+                <span class="divider"></span>
+
+                <div class="flex flex--center">
+                     <div class="col-1 push-left">
+                       <div class="contact-content">
+                          <p>If you have a question, comment, or like what I do send me a message and I'll respond promptly. </p>
+                          <a href="mailto:claytonfeathers@live.com? subject= Website Feedback" class="email-text"><h2 class="box-border">Email</h2></a>
+                          <a href="https://www.linkedin.com/in/clayton-t-feathers-456517119/"><h2 class="box-border">LinkedIn Message</h2></a>
+                       </div>
+                     </div>
+
+                     <div class="col-1">
+                         <div id="map" style="width:400px;height:400px">
+                     </div>
+
+                     <script>
+                          function myMap() {
+                          var mapOptions = {
+                              center: new google.maps.LatLng(36.549336, -82.558264),
+                              zoom: 10,
+                              mapTypeId: google.maps.MapTypeId.ROAD
+                          }
+                          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                          }
+                     </script>
+                </div>
+            </div>
+          </section>
+
+
+          <!--Footer Section-->
+          <section class="footer">
+            <div class="footer-wrapper">
+              <div class="footer-content">
+                <p>© Clayton Feathers</p>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+    </div>
 
 
 
 
 
-
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="assets/js/jquery-2.1.4.min.js"></script>
   <script src="assets/js/functions.js" type="text/javascript"></script>
