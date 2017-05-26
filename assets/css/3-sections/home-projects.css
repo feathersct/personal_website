@@ -3,6 +3,7 @@
      background-color: white;
      background-image: url('../../images/projects-bg.png');
      background-position: center center;
+     background-attachment: fixed;
      background-size: cover;
      font-family: 'Ubuntu', sans-serif;
      color: white;

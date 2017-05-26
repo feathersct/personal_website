@@ -11,8 +11,9 @@
 /* Flex */
 .home_sections{
      flex: 1;
-     background-image: url('../../images/experience-background.png');
-     background-size: cover;
+     background-image: url('../../images/timeline-bg.png');
+     background-size: cover ;
+     background-attachment: fixed;
 
 }
 

@@ -22,9 +22,9 @@
 
 .contact p
 {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .contact-content
@@ -43,4 +43,39 @@
 .contact h2
 {
   margin: 10px auto;
+  font-size: 24px;
+}
+
+#map
+{
+  width: 400px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1200px)
+{
+     #map
+     {
+       width: 300px;
+       height: 300px;
+     }
+
+     .contact-content
+     {
+       max-width: 320px;
+     }
+
+     .contact .push-left
+     {
+       margin-right: 30px;
+     }
+}
+
+@media only screen and (max-width: 900px)
+{
+    #map
+    {
+      width: 200px;
+      height: 200px;
+    }
 }

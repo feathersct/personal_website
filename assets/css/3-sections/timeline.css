@@ -7,7 +7,7 @@
 .cd-container a {
   color: #acb7c0;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .cd-container h1, h2 {
@@ -17,6 +17,8 @@
 .cd-container h3
 {
      font-size: 18px;
+     color: #bd5248;
+     margin-top: 5px;
 }
 
 /* --------------------------------
@@ -43,7 +45,7 @@ Main components
 
 -------------------------------- */
 #cd-timeline {
-     font-family: "Ubuntu";
+  font-family: 'Ubuntu', sans-serif;
   position: relative;
   padding: 2em 0;
   margin-top: 2em;
