@@ -8,9 +8,15 @@
         background: transparent;
     }
 
+body
+{
+  background: #bac4cb;
+}
+
 /* Flex */
 .home_sections{
      flex: 1;
+     background-color: #bac4cb;
      background-image: url('../../images/timeline-bg.png');
      background-size: cover ;
      background-attachment: fixed;
