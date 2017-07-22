@@ -153,12 +153,17 @@
 
      .description
      {
-          max-width: 275px;
+          min-width: 275px;
+          padding: 0 20px;
      }
 }
 
 @media only screen and (max-width: 640px)
 {
+     .about
+     {
+        padding: 25px 0px;
+     }
      .title
      {
           padding-bottom: 30px;
@@ -167,13 +172,14 @@
      .block-formation
      {
           margin-top: 10px;
-          margin: 10px auto;
+          margin: 10px 0px;
           text-align: left;
      }
 
     .profile
     {
       text-align: center;
+      padding: 15px 0px;
     }
 
      .title h1
@@ -189,6 +195,6 @@
 
     .about .col-1
     {
-      margin: auto
+      margin: auto;
     }
 }

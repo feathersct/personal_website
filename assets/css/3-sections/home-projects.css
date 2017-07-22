@@ -78,3 +78,39 @@
 {
   font-size: 17px;
 }
+
+
+@media only screen and (max-width: 640px)
+{
+  .bottom-line
+  {
+    border-bottom: none;
+  }
+
+  .grid-cell
+  {
+    display: block;
+    width: 100%;
+    padding: 50px 20px;
+  }
+
+  .right-line
+  {
+    border-right: none;
+  }
+
+  .projects-wrapper
+  {
+    padding: 10px;
+  }
+
+  .projects
+  {
+    text-align: center;
+  }
+
+  .projects .divider
+  {
+    margin: 30px auto;
+  }
+}

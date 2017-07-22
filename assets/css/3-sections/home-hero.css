@@ -132,3 +132,12 @@
   from {opacity: 0;}
   to   {opacity: 1;}
 }
+
+
+@media only screen and (max-width: 475px)
+{
+  .icon-wrapper
+  {
+    display: none;
+  }
+}
