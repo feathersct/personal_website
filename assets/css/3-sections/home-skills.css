@@ -73,6 +73,10 @@
 
 .skills img
 {
+  float: left;
+  height: 32px;
+  margin-top: 16px;
+  margin-right: 5px;
   border: 2px solid white;
 
 }
@@ -96,5 +100,22 @@
   .skills-wrapper
   {
     padding: 100px 10px;
+    text-align: center;
   }
+
+  .skills .divider
+  {
+    margin: 30px auto;
+  }
+
+  .skills .block-formation
+  {
+    text-align: center;
+  }
+
+  .skills img
+  {
+    float: none;
+  }
+
 }
