@@ -107,6 +107,7 @@
   .projects
   {
     text-align: center;
+    background-attachment: scroll;
   }
 
   .projects .divider

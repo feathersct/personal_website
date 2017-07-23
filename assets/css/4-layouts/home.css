@@ -81,4 +81,8 @@ body
      .push-right{
        margin-left: 10px;
      }
+
+     .home_sections{
+       background-attachment: scroll;
+     }
 }
